@@ -16,8 +16,8 @@ public class UserInput{
 		
 		System.out.print("Enter Your Account Balance: ");
 		float balance = input.nextFloat();
-		
 		System.out.print("Do You Love Java(True/False): ");
+		
 		boolean isJava = input.nextBoolean();
 		System.out.println();
 		
