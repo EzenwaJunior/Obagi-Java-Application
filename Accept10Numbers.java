@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Accept10Numbers{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
-		int sum = 0;// hold the sum fof the avriables
+		int sum = 0;// hold the sum of the avriables
 		double average;// hold the average for the avriables
 		int product = 1;// hold the product for the avriables
 		
