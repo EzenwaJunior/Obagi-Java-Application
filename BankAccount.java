@@ -26,7 +26,9 @@ public class BankAccount{
 				System.out.printf("Your Account Name is %s%n",bank.accountName);
 				System.out.printf("Your Account Number is %s%n",bank.accountNumber);
 				System.out.printf("Your Account Balance is %.2f%n",bank.accountBalance);
-
+				
+				bank.withdrawal(amount);
+				System.out.printf("Your Account Balance is Now %.2f%n",bank.accountBalance);
 			}
 			break;
 			
@@ -39,6 +41,9 @@ public class BankAccount{
 				System.out.printf("Your Account Name is %s%n",bank.accountName);
 				System.out.printf("Your Account Number is %s%n",bank.accountNumber);
 				System.out.printf("Your Account Balance is %.2f%n",bank.accountBalance);
+				
+				bank.deposit(amount);
+				System.out.printf("Your Account Balance is Now %.2f%n",bank.accountBalance);
 			}
 			break;
 			default:
