@@ -37,7 +37,6 @@ public class BankAccount{
 				System.out.print("Enter Amount to Deposit: ");
 				int amount = input.nextInt();
 				
-				bank.deposit(amount);
 				System.out.printf("Your Account Name is %s%n",bank.accountName);
 				System.out.printf("Your Account Number is %s%n",bank.accountNumber);
 				System.out.printf("Your Account Balance is %.2f%n",bank.accountBalance);
